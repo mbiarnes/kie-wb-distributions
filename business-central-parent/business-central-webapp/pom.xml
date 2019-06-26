@@ -134,6 +134,10 @@
           <groupId>javassist</groupId>
           <artifactId>javassist</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
 
@@ -331,6 +335,10 @@
     <dependency>
       <groupId>org.drools</groupId>
       <artifactId>drools-workbench-models-test-scenarios</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-verifier-api</artifactId>
     </dependency>
 
     <!-- Guvnor -->
@@ -876,6 +884,10 @@
     <!-- Models for OptaPlanner Workbench Screens -->
     <dependency>
       <groupId>org.optaplanner</groupId>
+      <artifactId>optaplanner-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.optaplanner</groupId>
       <artifactId>optaplanner-workbench-models-core</artifactId>
     </dependency>
     <dependency>
@@ -928,6 +940,10 @@
     </dependency>
 
     <!-- Errai -->
+    <dependency>
+      <groupId>org.jboss.errai</groupId>
+      <artifactId>errai-cdi-shared</artifactId>
+    </dependency>
     <dependency>
       <groupId>org.jboss.errai</groupId>
       <artifactId>errai-common</artifactId>
@@ -1433,6 +1449,10 @@
     <dependency>
       <groupId>org.kie.soup</groupId>
       <artifactId>kie-soup-dataset-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.kie.soup</groupId>
+      <artifactId>kie-soup-project-datamodel-api</artifactId>
     </dependency>
     <dependency>
       <groupId>org.dashbuilder</groupId>
